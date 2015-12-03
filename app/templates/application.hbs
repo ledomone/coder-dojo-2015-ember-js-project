@@ -1,5 +1,13 @@
-<h2 id="title">HangMan</h2>
-
-{{#each letters as |letter|}}
-	{{hangman-letter letter=letter}}
-{{/each}}
+<section>
+	<header>
+		<h2 id="title">HangMan</h2>
+	</header>
+	
+	<div class="row">
+		<div class="hangman-letters">
+			{{#each letters as |letter|}}
+				{{hangman-letter letter=letter}}
+			{{/each}}
+		</div>
+	</div>
+</section>
