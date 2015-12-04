@@ -1,18 +1,21 @@
 @import "bourbon";
-@import "bower_components/neat/app/assets/stylesheets/neat";
 
 section {
-	@include outer-container;
+	color: black;
 }
 
-header {
-	@include span-columns(12);
-}
+// section {
+// 	@include outer-container;
+// }
 
-.row {
-	@include row;
-}
+// header {
+// 	@include span-columns(12);
+// }
 
-.hangman-letters {
-	@include span-columns(3);
-}
+// .row {
+// 	@include row;
+// }
+
+// .hangman-letters {
+// 	@include span-columns(3);
+// }
